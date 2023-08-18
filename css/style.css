@@ -42,5 +42,7 @@ a {
   padding-top: 25px;
 }
 
-/* .menu-link {
-} */
+.menu-link {
+  color: #363636;
+  font-size: 16px;
+}
