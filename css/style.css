@@ -412,4 +412,34 @@ body {
 /* /Оформление кнопок слайдера */
 
 .blog_quote {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 20px;
+}
+
+.blog_quote-box {
+  flex-basis: 434px;
+}
+
+.blockquote {
+  margin-bottom: 30px;
+}
+
+.blockquote_name {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.blockquote_name span {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #9f6b08;
+}
+
+.blockquote_text {
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10px;
 }
