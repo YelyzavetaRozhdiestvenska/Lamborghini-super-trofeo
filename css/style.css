@@ -214,9 +214,141 @@ body {
 
 .track_text {
   max-width: 435px;
-  /* flex-basis: 435px; */
 }
 
 .track_img {
   margin: auto auto 90px auto;
+}
+
+.evo {
+  font-style: 14px;
+  margin-bottom: 100px;
+}
+
+.evo-black {
+  background-color: #363636;
+  padding: 100px 0 50px;
+  color: #fff;
+}
+
+.evo-black_inner {
+  position: relative;
+}
+
+.evo-black_inner::before {
+  content: "";
+  background-image: url(../images/dec-1.svg);
+  width: 185px;
+  height: 213px;
+  position: absolute;
+  top: 210px;
+  left: -130px;
+}
+
+.evo-black_inner::after {
+  content: "";
+  background-image: url(../images/dec-2.svg);
+  width: 498px;
+  height: 572px;
+  position: absolute;
+  top: 290px;
+  left: -40px;
+}
+
+.evo-black_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.evo-black_title {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 300;
+  padding-right: 50px;
+}
+
+.evo-black_infobox {
+  flex-basis: 437px;
+}
+
+.evo-black_text {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.evo-black_img {
+  display: block;
+  margin: 170px auto 60px;
+  position: relative;
+  z-index: 1;
+}
+
+.evo_descr-list {
+  display: flex;
+  justify-content: center;
+  gap: 0 65px;
+}
+
+.evo_descr-list dd {
+  text-transform: uppercase;
+}
+
+.evo-white_inner {
+  padding-top: 125px;
+  position: relative;
+}
+
+.evo-white_inner::before {
+  content: "";
+  background-image: url(../images/dec-3.png);
+  width: 274px;
+  height: 257px;
+  position: absolute;
+  top: -39px;
+  left: 360px;
+}
+
+.evo-white_inner::after {
+  content: "";
+  background-image: url(../images/dec-4.png);
+  width: 324px;
+  height: 311px;
+  position: absolute;
+  top: 115px;
+  left: 600px;
+}
+
+.evo-white_text {
+  margin-bottom: 30px;
+}
+
+.evo-white_text:first-child {
+  max-width: 285px;
+}
+
+.evo-white_text:nth-child(2) {
+  max-width: 437px;
+}
+
+.evo-white_text:nth-child(3) {
+  max-width: 590px;
+}
+
+.evo-white_video {
+  margin-top: 100px;
+  background-image: url(../images/evo-video.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 264px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.evo-white_video-link span {
+  display: block;
+  color: #fff;
 }
