@@ -352,3 +352,64 @@ body {
   display: block;
   color: #fff;
 }
+
+.blog {
+  margin-bottom: 100px;
+}
+/* Слайдер */
+
+.blog_title {
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.blog_item-img {
+  margin-bottom: 20px;
+}
+
+.blog_item-title {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  min-height: 46px;
+}
+
+.blog_item-text {
+  margin-bottom: 10px;
+}
+
+.blog_item-link {
+  font-size: 12px;
+  color: #363636;
+}
+/* /Слайдер */
+
+/* Оформление кнопок слайдера */
+
+.blog_slider {
+  position: relative;
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+
+.blog_button {
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+  left: 50%;
+}
+
+.swiper-button-left {
+  transform: translateX(-41px);
+}
+
+.swiper-button-right {
+  transform: translateX(8px);
+}
+/* /Оформление кнопок слайдера */
+
+.blog_quote {
+}
